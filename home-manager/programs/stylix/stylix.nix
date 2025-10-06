@@ -2,7 +2,7 @@
 {
   stylix = {
     enable = true;
-    image = ../../wallpapers/itachi-1.jpg;
+    image = ../../wallpapers/green-chips.jpg;
     polarity = "dark";
   };
 }

@@ -19,16 +19,19 @@ in
   home.packages =
     with pkgs;
     [
+      alsa-tools
       gcc
       google-chrome
       gparted
+      kdePackages.wacomtablet
       lsof
       obsidian
+      pavucontrol
       pulseaudio
       spotify
       vesktop
       vlc
-      wacomtablet
+      zip
     ]
     ++ work;
 }

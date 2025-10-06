@@ -9,6 +9,13 @@
 
   exec-once = [ "hyprpanel" ];
 
+  windowrulev2 = [
+    "fullscreen,class:(steam_app_.*)"
+    "noborder,class:(steam_app_.*)"
+    "noanim,class:(steam_app_.*)"
+    "suppressevent fullscreen,class:(steam_app_.*)"
+  ];
+
   monitor = [
     # TV Sony, left, highest res
     "desc:Sony SONY TV 0x01010101, 1920x1080@60, -1920x0, 1"

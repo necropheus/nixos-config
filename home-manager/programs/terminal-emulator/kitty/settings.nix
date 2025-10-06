@@ -1,6 +1,5 @@
 {
   # General
-  # TODO: Add a font with ligatures
   disable_ligatures = "never";
   enabled_layouts = "tall, fat, horizontal, vertical";
   font_family = "FiraCode Nerd Font Mono";
