@@ -27,6 +27,8 @@
       ll = "ls -l";
       lh = "ls -lh";
       cls = "clear";
+      oc = "opencode";
+      tsgo = "~/.npm-global/bin/tsgo";
     };
 
   history.size = 10000;
@@ -35,12 +37,10 @@
   envExtra = ''
     export LD_LIBRARY_PATH=/run/opengl-driver/lib:$LD_LIBRARY_PATH
     export TAVILY_API_KEY="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"
+    export EXA_API_KEY="26bf1c0c-1df2-4267-acaa-e26c584e7e4e"
   '';
 
   initContent = ''
-    if [ -f "$HOME/.mambaforge/etc/profile.d/conda.sh" ]; then
-    	. "$HOME/.mambaforge/etc/profile.d/conda.sh"
-    fi
     alias clear='/run/current-system/sw/bin/clear'
     source ${pkgs.zsh-history-substring-search}/share/zsh-history-substring-search/zsh-history-substring-search.zsh
     bindkey '^[OA' history-search-backward
@@ -53,8 +53,7 @@
     zstyle ':completion:*' list-colors "$\{(s.:.)LS_COLORS}"
 
     # PATH
-    export PATH="$HOME/.opencode/bin:$PATH"
-    export PATH="$HOME/.mambaforge/bin:$PATH"
+    export PATH="$HOME/.local/bin:$HOME/.npm-global/bin:$HOME/.opencode/bin:$PATH"
 
     # direnv
     eval "$(direnv hook zsh)"

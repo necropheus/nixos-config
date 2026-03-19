@@ -26,12 +26,17 @@ in
       kdePackages.wacomtablet
       lsof
       obsidian
+      opencode-desktop
+      code-cursor
       pavucontrol
       pulseaudio
       spotify
       vesktop
       vlc
       zip
+      qemu
+      bun
+      gh
     ]
     ++ work;
 }

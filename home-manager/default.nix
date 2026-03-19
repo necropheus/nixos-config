@@ -8,7 +8,7 @@
   home = {
     username = "necropheus";
     homeDirectory = "/home/necropheus";
-    stateVersion = "25.05";
+    stateVersion = "25.11";
 
     pointerCursor = import ./pointer-cursor.nix { inherit pkgs; };
   };

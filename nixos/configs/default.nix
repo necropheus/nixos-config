@@ -8,6 +8,7 @@
     ./networking.nix
     ./nvidia.nix
     ./printing.nix
+    ./samba.nix
     ./sound.nix
     ./ssh.nix
     ./time.nix

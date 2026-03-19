@@ -1,9 +1,11 @@
 { pkgs, ... }:
 with pkgs;
 [
-  nodejs_22
+  nodejs
   openvpn
   slack
   yarn-berry
   zoom-us
+  glab
+  claude-code
 ]

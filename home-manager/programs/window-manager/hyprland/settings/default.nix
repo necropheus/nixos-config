@@ -7,13 +7,16 @@
   general = import ./general.nix;
   bind = import ./key-bindings.nix;
 
-  exec-once = [ "hyprpanel" ];
+  exec-once = [
+    "$HOME/.local/bin/hyprpanel-preserve.sh"
+    "hyprpanel"
+  ];
 
-  windowrulev2 = [
-    "fullscreen,class:(steam_app_.*)"
-    "noborder,class:(steam_app_.*)"
-    "noanim,class:(steam_app_.*)"
-    "suppressevent fullscreen,class:(steam_app_.*)"
+  windowrule = [
+    "match:class (steam_app_.*), fullscreen on"
+    "match:class (steam_app_.*), border_size 0"
+    "match:class (steam_app_.*), no_anim on"
+    "match:class (steam_app_.*), suppress_event fullscreen"
   ];
 
   monitor = [
@@ -24,6 +27,10 @@
     "desc:TMN MK24X7100 000000000000, 1920x1080@60, 0x0, 1"
   ];
 
+  # cursor = {
+  #   no_hardware_cursors = true;
+  # };
+
   input = {
     follow_mouse = 2;
     repeat_delay = 300;
@@ -33,4 +40,8 @@
     kb_variant = "altgr-intl";
     kb_options = [ "lv3:ralt_switch" ]; # AltGr enabled
   };
+
+  animation = [
+    "workspaces, 0"
+  ];
 }
