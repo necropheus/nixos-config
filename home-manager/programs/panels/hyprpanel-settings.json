@@ -1,0 +1,742 @@
+{
+  "theme": {
+    "bar": {
+      "background": "#041d31",
+      "border": {
+        "color": "#2aa469"
+      },
+      "buttons": {
+        "background": "#041d31",
+        "battery": {
+          "background": "#041d31",
+          "border": "#499f86",
+          "icon": "#499f86",
+          "icon_background": "#499f86",
+          "text": "#499f86"
+        },
+        "bluetooth": {
+          "background": "#041d31",
+          "border": "#2aa469",
+          "icon": "#2aa469",
+          "icon_background": "#2aa469",
+          "text": "#2aa469"
+        },
+        "borderColor": "#2aa469",
+        "clock": {
+          "background": "#041d31",
+          "border": "#0094fa",
+          "icon": "#0094fa",
+          "icon_background": "#0094fa",
+          "text": "#0094fa"
+        },
+        "dashboard": {
+          "background": "#041d31",
+          "border": "#499f86",
+          "icon": "#499f86"
+        },
+        "hover": "#20776e",
+        "icon": "#2aa469",
+        "icon_background": "#041d31",
+        "media": {
+          "background": "#041d31",
+          "border": "#2aa469",
+          "icon": "#2aa469",
+          "icon_background": "#2aa469",
+          "text": "#2aa469"
+        },
+        "modules": {
+          "cava": {
+            "background": "#041d31",
+            "border": "#069ada",
+            "icon": "#069ada",
+            "icon_background": "#041d31",
+            "text": "#069ada"
+          },
+          "cpu": {
+            "background": "#041d31",
+            "border": "#0094fa",
+            "icon": "#0094fa",
+            "icon_background": "#041d31",
+            "text": "#0094fa"
+          },
+          "hypridle": {
+            "background": "#041d31",
+            "border": "#2aa469",
+            "icon": "#2aa469",
+            "icon_background": "#041d31",
+            "text": "#2aa469"
+          },
+          "hyprsunset": {
+            "background": "#041d31",
+            "border": "#499f86",
+            "icon": "#499f86",
+            "icon_background": "#041d31",
+            "text": "#499f86"
+          },
+          "kbLayout": {
+            "background": "#041d31",
+            "border": "#2aa469",
+            "icon": "#2aa469",
+            "icon_background": "#041d31",
+            "text": "#2aa469"
+          },
+          "microphone": {
+            "background": "#041d31",
+            "border": "#009fb3",
+            "icon": "#009fb3",
+            "icon_background": "#041d31",
+            "text": "#009fb3"
+          },
+          "netstat": {
+            "background": "#041d31",
+            "border": "#009fb3",
+            "icon": "#009fb3",
+            "icon_background": "#041d31",
+            "text": "#009fb3"
+          },
+          "power": {
+            "background": "#041d31",
+            "border": "#041d31",
+            "icon": "#0ca299",
+            "icon_background": "#041d31"
+          },
+          "ram": {
+            "background": "#041d31",
+            "border": "#499f86",
+            "icon": "#499f86",
+            "icon_background": "#041d31",
+            "text": "#499f86"
+          },
+          "storage": {
+            "background": "#041d31",
+            "border": "#2aa469",
+            "icon": "#2aa469",
+            "icon_background": "#041d31",
+            "text": "#2aa469"
+          },
+          "submap": {
+            "background": "#041d31",
+            "border": "#069ada",
+            "icon": "#069ada",
+            "icon_background": "#041d31",
+            "text": "#069ada"
+          },
+          "updates": {
+            "background": "#041d31",
+            "border": "#0094fa",
+            "icon": "#0094fa",
+            "icon_background": "#041d31",
+            "text": "#0094fa"
+          },
+          "weather": {
+            "background": "#041d31",
+            "border": "#26a719",
+            "icon": "#26a719",
+            "icon_background": "#041d31",
+            "text": "#26a719"
+          },
+          "worldclock": {
+            "background": "#041d31",
+            "border": "#0094fa",
+            "icon": "#0094fa",
+            "icon_background": "#0094fa",
+            "text": "#0094fa"
+          }
+        },
+        "network": {
+          "background": "#041d31",
+          "border": "#0094fa",
+          "icon": "#0094fa",
+          "icon_background": "#0094fa",
+          "text": "#0094fa"
+        },
+        "notifications": {
+          "background": "#041d31",
+          "border": "#2aa469",
+          "icon": "#2aa469",
+          "icon_background": "#2aa469",
+          "total": "#2aa469"
+        },
+        "systray": {
+          "background": "#041d31",
+          "border": "#20776e",
+          "customIcon": "#b4feff"
+        },
+        "text": "#2aa469",
+        "volume": {
+          "background": "#041d31",
+          "border": "#26a719",
+          "icon": "#26a719",
+          "icon_background": "#26a719",
+          "text": "#26a719"
+        },
+        "windowtitle": {
+          "background": "#041d31",
+          "border": "#0094fa",
+          "icon": "#0094fa",
+          "icon_background": "#0094fa",
+          "text": "#0094fa"
+        },
+        "workspaces": {
+          "active": "#0094fa",
+          "available": "#2aa469",
+          "background": "#041d31",
+          "border": "#ddf6f2",
+          "hover": "#20776e",
+          "numbered_active_highlighted_text_color": "#041d31",
+          "numbered_active_underline_color": "#ddf6f2",
+          "occupied": "#0ca299"
+        }
+      },
+      "menus": {
+        "background": "#041d31",
+        "border": {
+          "color": "#025052"
+        },
+        "buttons": {
+          "active": "#0094fa",
+          "default": "#2aa469",
+          "disabled": "#5aaab3",
+          "text": "#025052"
+        },
+        "cards": "#041d31",
+        "check_radio_button": {
+          "active": "#2aa469",
+          "background": "#025052"
+        },
+        "dimtext": "#5aaab3",
+        "dropdownmenu": {
+          "background": "#041d31",
+          "divider": "#041d31",
+          "text": "#b4feff"
+        },
+        "feinttext": "#025052",
+        "iconbuttons": {
+          "active": "#2aa469",
+          "passive": "#b4feff"
+        },
+        "icons": {
+          "active": "#2aa469",
+          "passive": "#5aaab3"
+        },
+        "label": "#2aa469",
+        "listitems": {
+          "active": "#2aa469",
+          "passive": "#b4feff"
+        },
+        "menu": {
+          "battery": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "icons": {
+              "active": "#499f86",
+              "passive": "#34d0a0"
+            },
+            "label": {
+              "color": "#499f86"
+            },
+            "listitems": {
+              "active": "#499f86",
+              "passive": "#b4feff"
+            },
+            "slider": {
+              "background": "#5aaab3",
+              "backgroundhover": "#20776e",
+              "primary": "#499f86",
+              "puck": "#5aaab3"
+            },
+            "text": "#b4feff"
+          },
+          "bluetooth": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "iconbutton": {
+              "iconbutton": {
+                "active": "#2aa469",
+                "passive": "#b4feff"
+              }
+            },
+            "icons": {
+              "icons": {
+                "active": "#2aa469",
+                "passive": "#34d0a0"
+              }
+            },
+            "label": {
+              "color": "#2aa469"
+            },
+            "listitems": {
+              "active": "#2aa469",
+              "passive": "#b4feff"
+            },
+            "scroller": {
+              "color": "#2aa469"
+            },
+            "status": "#5aaab3",
+            "switch": {
+              "disabled": "#025052",
+              "enabled": "#2aa469",
+              "puck": "#20776e",
+              "switch_divider": "#20776e"
+            },
+            "text": "#b4feff"
+          },
+          "clock": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "calendar": {
+              "contextdays": "#5aaab3",
+              "currentday": "#0094fa",
+              "days": "#b4feff",
+              "paginator": "#0094fa",
+              "weekdays": "#0094fa",
+              "yearmonth": "#069ada"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "text": "#b4feff",
+            "time": {
+              "time": "#0094fa",
+              "timeperiod": "#069ada"
+            },
+            "weather": {
+              "hourly": {
+                "icon": "#0094fa",
+                "temperature": "#0094fa",
+                "time": "#0094fa"
+              },
+              "icon": "#0094fa",
+              "stats": "#0094fa",
+              "status": "#069ada",
+              "temperature": "#b4feff",
+              "thermometer": {
+                "cold": "#2aa469",
+                "extremelycold": "#2aa469",
+                "extremelyhot": "#0ca299",
+                "hot": "#26a719",
+                "moderate": "#2aa469"
+              }
+            }
+          },
+          "dashboard": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "controls": {
+              "bluetooth": {
+                "background": "#2aa469",
+                "text": "#025052"
+              },
+              "disabled": "#5aaab3",
+              "input": {
+                "background": "#0094fa",
+                "text": "#025052"
+              },
+              "notifications": {
+                "background": "#499f86",
+                "text": "#025052"
+              },
+              "volume": {
+                "background": "#0ca299",
+                "text": "#025052"
+              },
+              "wifi": {
+                "background": "#0094fa",
+                "text": "#025052"
+              }
+            },
+            "directories": {
+              "left": {
+                "bottom": {
+                  "color": "#0ca299"
+                },
+                "middle": {
+                  "color": "#499f86"
+                },
+                "top": {
+                  "color": "#0094fa"
+                }
+              },
+              "right": {
+                "bottom": {
+                  "color": "#2aa469"
+                },
+                "middle": {
+                  "color": "#0094fa"
+                },
+                "top": {
+                  "color": "#069ada"
+                }
+              }
+            },
+            "monitors": {
+              "bar_background": "#20776e",
+              "cpu": {
+                "bar": "#0ca299",
+                "icon": "#0ca299",
+                "label": "#0ca299"
+              },
+              "disk": {
+                "bar": "#0094fa",
+                "icon": "#0094fa",
+                "label": "#0094fa"
+              },
+              "gpu": {
+                "bar": "#009fb3",
+                "icon": "#009fb3",
+                "label": "#009fb3"
+              },
+              "ram": {
+                "bar": "#499f86",
+                "icon": "#499f86",
+                "label": "#499f86"
+              }
+            },
+            "powermenu": {
+              "confirmation": {
+                "background": "#041d31",
+                "body": "#b4feff",
+                "border": "#025052",
+                "button_text": "#041d31",
+                "card": "#041d31",
+                "confirm": "#069ada",
+                "deny": "#0094fa",
+                "label": "#2aa469"
+              },
+              "logout": "#009fb3",
+              "restart": "#26a719",
+              "shutdown": "#0ca299",
+              "sleep": "#2aa469"
+            },
+            "profile": {
+              "name": "#0094fa"
+            },
+            "shortcuts": {
+              "background": "#2aa469",
+              "recording": "#009fb3",
+              "text": "#025052"
+            }
+          },
+          "media": {
+            "album": "#0094fa",
+            "artist": "#069ada",
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "buttons": {
+              "background": "#2aa469",
+              "enabled": "#069ada",
+              "inactive": "#5aaab3",
+              "text": "#041d31"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "slider": {
+              "background": "#5aaab3",
+              "backgroundhover": "#20776e",
+              "primary": "#0094fa",
+              "puck": "#5aaab3"
+            },
+            "song": "#2aa469",
+            "timestamp": "#b4feff"
+          },
+          "network": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "iconbuttons": {
+              "active": "#0094fa",
+              "passive": "#b4feff"
+            },
+            "icons": {
+              "active": "#0094fa",
+              "passive": "#34d0a0"
+            },
+            "label": {
+              "color": "#0094fa"
+            },
+            "listitems": {
+              "active": "#0094fa",
+              "passive": "#b4feff"
+            },
+            "scroller": {
+              "color": "#0094fa"
+            },
+            "status": {
+              "color": "#5aaab3"
+            },
+            "switch": {
+              "disabled": "#025052",
+              "enabled": "#0094fa",
+              "puck": "#20776e"
+            },
+            "text": "#b4feff"
+          },
+          "notifications": {
+            "background": "#041d31",
+            "border": "#025052",
+            "card": "#041d31",
+            "clear": "#2aa469",
+            "label": "#2aa469",
+            "no_notifications_label": "#025052",
+            "pager": {
+              "background": "#041d31",
+              "button": "#2aa469",
+              "label": "#34d0a0"
+            },
+            "scrollbar": {
+              "color": "#2aa469"
+            },
+            "switch": {
+              "disabled": "#025052",
+              "enabled": "#2aa469",
+              "puck": "#20776e",
+              "switch_divider": "#20776e"
+            }
+          },
+          "power": {
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "buttons": {
+              "logout": {
+                "background": "#041d31",
+                "icon": "#025052",
+                "icon_background": "#009fb3",
+                "text": "#009fb3"
+              },
+              "restart": {
+                "background": "#041d31",
+                "icon": "#025052",
+                "icon_background": "#26a719",
+                "text": "#26a719"
+              },
+              "shutdown": {
+                "background": "#041d31",
+                "icon": "#025052",
+                "icon_background": "#0ca299",
+                "text": "#0ca299"
+              },
+              "sleep": {
+                "background": "#041d31",
+                "icon": "#025052",
+                "icon_background": "#2aa469",
+                "text": "#2aa469"
+              }
+            }
+          },
+          "systray": {
+            "dropdownmenu": {
+              "background": "#041d31",
+              "divider": "#041d31",
+              "text": "#b4feff"
+            }
+          },
+          "volume": {
+            "audio_slider": {
+              "background": "#5aaab3",
+              "backgroundhover": "#20776e",
+              "primary": "#26a719",
+              "puck": "#5aaab3"
+            },
+            "background": {
+              "color": "#041d31"
+            },
+            "border": {
+              "color": "#025052"
+            },
+            "card": {
+              "color": "#041d31"
+            },
+            "iconbutton": {
+              "active": "#26a719",
+              "passive": "#b4feff"
+            },
+            "icons": {
+              "active": "#26a719",
+              "passive": "#34d0a0"
+            },
+            "input_slider": {
+              "background": "#5aaab3",
+              "backgroundhover": "#20776e",
+              "primary": "#26a719",
+              "puck": "#5aaab3"
+            },
+            "label": {
+              "color": "#26a719"
+            },
+            "listitems": {
+              "active": "#26a719",
+              "passive": "#b4feff"
+            },
+            "text": "#b4feff"
+          }
+        },
+        "popover": {
+          "background": "#025052",
+          "border": "#025052",
+          "text": "#2aa469"
+        },
+        "progressbar": {
+          "background": "#20776e",
+          "foreground": "#2aa469"
+        },
+        "slider": {
+          "background": "#5aaab3",
+          "backgroundhover": "#20776e",
+          "primary": "#2aa469",
+          "puck": "#5aaab3"
+        },
+        "switch": {
+          "disabled": "#025052",
+          "enabled": "#2aa469",
+          "puck": "#20776e"
+        },
+        "text": "#b4feff",
+        "tooltip": {
+          "background": "#041d31",
+          "text": "#b4feff"
+        }
+      }
+    },
+    "fonts": {
+      "name": "DejaVu Sans Mono",
+      "size": 10
+    },
+    "notification": {
+      "actions": {
+        "background": "#2aa469",
+        "text": "#025052"
+      },
+      "background": "#025052",
+      "border": "#025052",
+      "close_button": {
+        "background": "#2aa469",
+        "label": "#041d31"
+      },
+      "label": "#2aa469",
+      "labelicon": "#2aa469",
+      "text": "#b4feff",
+      "time": "#34d0a0"
+    },
+    "osd": {
+      "icon": "#041d31",
+      "icon_container": "#2aa469",
+      "label": "#2aa469",
+      "theme": {
+        "color": "#2aa469",
+        "container": "#041d31",
+        "empty_color": "#025052",
+        "overflow_color": "#0ca299"
+      }
+    }
+  },
+  "bar.customModules.storage.paths": [
+    "/"
+  ],
+  "theme.bar.scaling": 80,
+  "theme.notification.scaling": 80,
+  "theme.osd.scaling": 80,
+  "theme.bar.menus.menu.dashboard.scaling": 80,
+  "theme.bar.menus.menu.dashboard.confirmation_scaling": 80,
+  "theme.bar.menus.menu.media.scaling": 80,
+  "theme.bar.menus.menu.volume.scaling": 80,
+  "theme.bar.menus.menu.network.scaling": 80,
+  "theme.bar.menus.menu.bluetooth.scaling": 80,
+  "theme.bar.menus.menu.battery.scaling": 80,
+  "theme.bar.menus.menu.clock.scaling": 80,
+  "theme.bar.menus.menu.notifications.scaling": 80,
+  "theme.bar.menus.menu.power.scaling": 80,
+  "theme.tooltip.scaling": 80,
+  "theme.bar.menus.popover.scaling": 80,
+  "bar.layouts": {
+    "0": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "network",
+        "systray",
+        "clock",
+        "notifications"
+      ]
+    },
+    "1": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    },
+    "2": {
+      "left": [
+        "dashboard",
+        "workspaces",
+        "windowtitle"
+      ],
+      "middle": [
+        "media"
+      ],
+      "right": [
+        "volume",
+        "clock",
+        "notifications"
+      ]
+    }
+  },
+  "bar.launcher.autoDetectIcon": true,
+  "bar.workspaces.showWsIcons": true,
+  "bar.workspaces.showApplicationIcons": true
+}

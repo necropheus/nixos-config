@@ -7,11 +7,6 @@
   general = import ./general.nix;
   bind = import ./key-bindings.nix;
 
-  exec-once = [
-    "$HOME/.local/bin/hyprpanel-preserve.sh"
-    "hyprpanel"
-  ];
-
   windowrule = [
     "match:class (steam_app_.*), fullscreen on"
     "match:class (steam_app_.*), border_size 0"

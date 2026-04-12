@@ -1,6 +1,23 @@
-{ config, pkgs, ... }:
 {
-  programs.hyprpanel = import ./hyprpanel.nix { inherit config; };
+  config,
+  lib,
+  pkgs,
+  ...
+}:
+{
+  programs.hyprpanel = import ./hyprpanel.nix { inherit config lib; };
+
+  # HyprPanel (GLib/Vala) can't resolve Nix store symlink chains (ELOOP).
+  # settings is mkForce'd to {} so HM creates no symlink.
+  # Instead, copy the config as a real writable file.
+  home.activation.hyprpanelConfig = lib.hm.dag.entryAfter [ "linkGeneration" ] ''
+    configDir="$HOME/.config/hyprpanel"
+    configFile="$configDir/config.json"
+    mkdir -p "$configDir"
+    rm -f "$configFile"
+    cp "${./hyprpanel-settings.json}" "$configFile"
+    chmod u+w "$configFile"
+  '';
 
   home.packages = with pkgs; [
     (pkgs.python3.withPackages (python-pkgs: [

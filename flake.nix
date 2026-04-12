@@ -55,7 +55,6 @@
         };
         modules = [
           stylix.nixosModules.stylix
-          home-manager.nixosModules.home-manager
           ./nixos/configuration.nix
           (
             {
@@ -66,11 +65,6 @@
             {
               stylix.enable = true;
               stylix.base16Scheme = "${pkgs.base16-schemes}/share/themes/gruvbox-dark-hard.yaml";
-
-              home-manager.useGlobalPkgs = true;
-              home-manager.useUserPackages = true;
-              home-manager.extraSpecialArgs = { inherit neovimNightly; };
-              home-manager.users.necropheus = import ./home-manager;
 
               nixpkgs.overlays = [ rust-overlay.overlays.default ];
               environment.systemPackages = [

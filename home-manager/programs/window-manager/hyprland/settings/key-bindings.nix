@@ -36,6 +36,9 @@
   # Screenshots
   ",Print, exec, grim -g \"$(slurp -d)\" - | wl-copy"
 
+  # Layout toggle
+  "$mod, space, exec, hyprctl keyword general:layout $(hyprctl getoption general:layout -j | grep -q dwindle && echo master || echo dwindle)"
+
   # Apps
   "$mod, Return, exec, $terminal"
   "$mod, P, exec, $menu"
