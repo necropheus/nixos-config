@@ -26,6 +26,7 @@ in
       neovimNightly
       ripgrep
       xclip
+      appimage-run
     ]
     ++ secrets
     ++ sound
